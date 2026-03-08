@@ -7,10 +7,7 @@ const Footer = () => {
         <div className="grid gap-8 md:grid-cols-4">
           <div>
             <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-                <BookOpen className="h-4 w-4 text-primary-foreground" />
-              </div>
-              <span className="font-bold text-foreground">ADA</span>
+              <img src={adaLogo} alt="American Dyslexia Association" className="h-9 w-auto" />
             </div>
             <p className="text-sm text-muted-foreground">
               The American Dyslexia Association empowers learners through

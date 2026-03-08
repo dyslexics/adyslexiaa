@@ -3,9 +3,9 @@ import { CheckCircle } from "lucide-react";
 
 const points = [
   "Dyslexia is neurological in origin — not a sign of low intelligence",
-  "Early screening and intervention are the most effective approaches",
-  "Structured literacy programs can help every learner succeed",
-  "Dyslexic thinkers often excel in creativity and problem-solving",
+  "The AFS Method addresses attention, sensory functions, and symptoms together",
+  "Individualized training plans lead to lasting improvement",
+  "Dyslexic thinkers often excel in creativity, problem-solving, and big-picture thinking",
 ];
 
 const AboutSection = () => {
@@ -19,13 +19,13 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">
-            What is Dyslexia?
+            Why the AFS Method Works
           </h2>
           <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
-            Dyslexia is a specific learning disability that affects reading,
-            writing, and spelling. It is the most common learning disability,
-            affecting up to 20% of the population. With the right support,
-            individuals with dyslexia can achieve extraordinary things.
+            Unlike traditional approaches that focus only on reading drills, the
+            AFS Method recognizes that dyslexia involves differences in attention
+            and sensory perception. By training all three areas — Attention,
+            Function, and Symptom — learners make deeper, more sustainable progress.
           </p>
           <ul className="space-y-3">
             {points.map((point) => (
@@ -45,19 +45,19 @@ const AboutSection = () => {
           className="rounded-2xl bg-card p-8 shadow-card"
         >
           <h3 className="mb-4 text-xl font-semibold text-card-foreground">
-            Signs of Dyslexia
+            Who Benefits from AFS?
           </h3>
           <div className="space-y-4">
             {[
-              { age: "Preschool", signs: "Difficulty learning nursery rhymes, recognizing letters, or learning the alphabet" },
-              { age: "Elementary", signs: "Slow reading speed, trouble sounding out new words, avoiding reading aloud" },
-              { age: "Teens & Adults", signs: "Poor spelling, difficulty summarizing, slow reading of unfamiliar material" },
+              { group: "Children", detail: "Early intervention with AFS training helps children build strong foundations in reading, writing, and spelling" },
+              { group: "Teens & Adults", detail: "It's never too late — the AFS Method helps older learners close gaps and gain confidence in literacy" },
+              { group: "Teachers & Parents", detail: "AFS training and certification programs give educators and families the tools to support dyslexic learners every day" },
             ].map((item) => (
-              <div key={item.age} className="rounded-lg bg-secondary p-4">
+              <div key={item.group} className="rounded-lg bg-secondary p-4">
                 <div className="mb-1 text-sm font-semibold text-primary">
-                  {item.age}
+                  {item.group}
                 </div>
-                <p className="text-sm text-muted-foreground">{item.signs}</p>
+                <p className="text-sm text-muted-foreground">{item.detail}</p>
               </div>
             ))}
           </div>

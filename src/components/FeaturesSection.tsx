@@ -1,30 +1,30 @@
 import { motion } from "framer-motion";
-import { BookOpen, GraduationCap, Heart, Users } from "lucide-react";
+import { Eye, Puzzle, BookOpen, GraduationCap } from "lucide-react";
 
 const features = [
   {
-    icon: BookOpen,
-    title: "Understanding Dyslexia",
+    icon: Eye,
+    title: "Attention Training",
     description:
-      "Learn the science behind dyslexia, its signs at different ages, and how early identification changes lives.",
+      "The first pillar of AFS targets focused attention — training the ability to concentrate on letters, words, and numbers without distraction.",
+  },
+  {
+    icon: Puzzle,
+    title: "Function Training",
+    description:
+      "The second pillar strengthens sensory functions like visual and auditory perception, spatial orientation, and memory that are essential for reading and writing.",
+  },
+  {
+    icon: BookOpen,
+    title: "Symptom Training",
+    description:
+      "The third pillar addresses the specific reading, writing, and spelling errors directly — building fluency and confidence step by step.",
   },
   {
     icon: GraduationCap,
-    title: "Educational Resources",
+    title: "For Teachers & Parents",
     description:
-      "Access evidence-based tools, lesson plans, and strategies designed for educators and parents alike.",
-  },
-  {
-    icon: Users,
-    title: "Community Support",
-    description:
-      "Connect with families, mentors, and professionals who understand the dyslexia journey.",
-  },
-  {
-    icon: Heart,
-    title: "Advocacy & Research",
-    description:
-      "We champion policy change and fund groundbreaking research to improve outcomes for all learners.",
+      "The AFS Method equips educators and parents with practical, evidence-based tools they can use at home and in the classroom every day.",
   },
 ];
 
@@ -40,11 +40,11 @@ const FeaturesSection = () => {
           className="mb-14 text-center"
         >
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-            How We Make a Difference
+            The AFS Method — Three Pillars of Success
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            From classrooms to Capitol Hill, we work to ensure that dyslexia is
-            understood, identified, and addressed.
+            The Attention–Function–Symptom Method is a holistic, individualized
+            approach that addresses the root causes of dyslexia — not just the symptoms.
           </p>
         </motion.div>
 

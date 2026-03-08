@@ -10,23 +10,24 @@ const Footer = () => {
               <img src={adaLogo} alt="American Dyslexia Association" className="h-9 w-auto" />
             </div>
             <p className="text-sm text-muted-foreground">
-              The American Dyslexia Association empowers learners through
-              research, education, and advocacy.
+              The American Dyslexia Association helps dyslexic learners thrive
+              through the proven AFS Method — used by teachers, parents, and
+              experts worldwide for 25+ years.
             </p>
           </div>
 
           {[
             {
-              title: "Resources",
-              links: ["What is Dyslexia?", "Screening Tools", "For Educators", "For Parents"],
+              title: "AFS Method",
+              links: ["What is AFS?", "Attention Training", "Function Training", "Symptom Training"],
             },
             {
               title: "Programs",
-              links: ["Literacy Workshops", "Summer Camps", "Tutor Training", "Research Grants"],
+              links: ["AFS Certification", "Workshops", "For Teachers", "For Parents"],
             },
             {
               title: "Organization",
-              links: ["About Us", "Our Team", "Careers", "Contact"],
+              links: ["About ADA", "Our Experts", "Research", "Contact"],
             },
           ].map((col) => (
             <div key={col.title}>

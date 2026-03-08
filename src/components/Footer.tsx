@@ -1,4 +1,4 @@
-import { BookOpen } from "lucide-react";
+import adaLogo from "@/assets/ada-logo.webp";
 
 const Footer = () => {
   return (

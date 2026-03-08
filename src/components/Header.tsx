@@ -1,4 +1,5 @@
-import { BookOpen, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import adaLogo from "@/assets/ada-logo.webp";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 

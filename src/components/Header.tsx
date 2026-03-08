@@ -1,4 +1,5 @@
-import { BookOpen, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import adaLogo from "@/assets/ada-logo.webp";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
@@ -16,12 +17,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 border-b border-border bg-card/90 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-            <BookOpen className="h-5 w-5 text-primary-foreground" />
-          </div>
-          <span className="text-lg font-bold text-foreground tracking-tight">
-            American Dyslexia Association
-          </span>
+          <img src={adaLogo} alt="American Dyslexia Association" className="h-10 w-auto" />
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">

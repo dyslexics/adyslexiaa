@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "1 in 5", label: "People have dyslexia" },
-  { value: "70-80%", label: "Of poor readers may have dyslexia" },
-  { value: "50,000+", label: "Families supported annually" },
-  { value: "48", label: "States with active programs" },
+  { value: "25+", label: "Years of proven success" },
+  { value: "1 in 5", label: "People affected by dyslexia" },
+  { value: "Worldwide", label: "Teachers & parents using AFS" },
+  { value: "3 Pillars", label: "Attention, Function, Symptom" },
 ];
 
 const StatsSection = () => {

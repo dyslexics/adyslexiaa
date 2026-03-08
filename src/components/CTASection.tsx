@@ -14,11 +14,11 @@ const CTASection = () => {
           className="mx-auto max-w-3xl rounded-2xl bg-primary px-8 py-14 text-center shadow-card md:px-16"
         >
           <h2 className="mb-4 text-3xl font-bold text-primary-foreground md:text-4xl">
-            Join the Movement
+            Start the AFS Journey Today
           </h2>
           <p className="mx-auto mb-8 max-w-xl text-lg text-primary-foreground/80">
-            Whether you're a parent, educator, or advocate — there's a place for
-            you. Help us build a world where dyslexia is understood and supported.
+            Whether you're a parent seeking help for your child, a teacher looking
+            for effective strategies, or an expert ready to certify — ADA is here for you.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button
@@ -26,14 +26,14 @@ const CTASection = () => {
               variant="secondary"
             >
               <Mail className="mr-2 h-4 w-4" />
-              Get Our Newsletter
+              Get AFS Resources
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
             >
-              Become a Volunteer <ArrowRight className="ml-2 h-4 w-4" />
+              Become AFS Certified <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
         </motion.div>

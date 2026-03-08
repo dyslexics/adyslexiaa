@@ -13,23 +13,23 @@ const HeroSection = () => {
           transition={{ duration: 0.7 }}
         >
           <span className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
-            Empowering Every Reader
+            The AFS Method — 25 Years of Success
           </span>
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
-            Every Mind Deserves the{" "}
-            <span className="text-primary">Chance to Read</span>
+            A Different Approach to{" "}
+            <span className="text-primary">Help Dyslexic Learners</span>
           </h1>
           <p className="mb-8 max-w-lg text-lg leading-relaxed text-muted-foreground">
-            The American Dyslexia Association is dedicated to helping individuals
-            with dyslexia thrive through research, education, and advocacy.
-            Together, we can unlock every learner's potential.
+            Teachers, parents, and experts have been working with the
+            Attention–Function–Symptom Method successfully worldwide for over
+            25 years. Discover how the AFS Method can unlock every learner's potential.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg">
-              Find Resources <ArrowRight className="ml-2 h-4 w-4" />
+              Discover the AFS Method <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button variant="outline" size="lg">
-              Learn About Dyslexia
+              Get Started Today
             </Button>
           </div>
         </motion.div>
